@@ -23,7 +23,7 @@ data "consul_keys" "networking" {
 # NETWORKING #
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "~>2.0"
+  version = "~>3.0"
 
   name = "globo-primary-${terraform.workspace}"
 
